@@ -14,7 +14,7 @@ This project is an Air Quality Classification Model built using Machine Learning
 
 # 📂 Project Structure
 
-** Air Quality Classification Model/
+ Air Quality Classification Model/ \n
 │-- models/
 │   │-- svc_binary.pkl
 │   │-- svc_multi.pkl
@@ -25,7 +25,7 @@ This project is an Air Quality Classification Model built using Machine Learning
 │   │-- setup.py
 │   │-- app.py
 │-- requirements.txt
-│-- README.md **
+│-- README.md 
 
 # 🚀 Installation & Setup
 
