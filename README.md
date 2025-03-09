@@ -1,10 +1,10 @@
-##🌍 Air Quality Classification Model
+# 🌍 Air Quality Classification Model
 
 📌 Overview
 
 This project is an Air Quality Classification Model built using Machine Learning. It provides a Streamlit-based UI where users can select an ML model and input data for air quality prediction. The app loads multiple trained models from .pkl files using joblib.
 
-✨ Features
+# ✨ Features
 
 ✅ Multiple ML models available (SVC, Logistic Regression, etc.)
 ✅ User-friendly UI using Streamlit
@@ -12,7 +12,7 @@ This project is an Air Quality Classification Model built using Machine Learning
 ✅ Pre-trained models loaded via joblib
 ✅ Supports binary and multi-class classification
 
-📂 Project Structure
+# 📂 Project Structure
 
 Air Quality Classification Model/
 │-- models/
@@ -27,15 +27,15 @@ Air Quality Classification Model/
 │-- requirements.txt
 │-- README.md
 
-🚀 Installation & Setup
+# 🚀 Installation & Setup
 
-1️⃣ Create a Virtual Environment
+# 1️⃣ Create a Virtual Environment
 
-python -m venv env
+## python -m venv env
 
-Activate Virtual Environment:
+## Activate Virtual Environment:
 
-Windows: env\Scripts\activate
+## Windows: env\Scripts\activate
 
 Mac/Linux: source env/bin/activate
 
