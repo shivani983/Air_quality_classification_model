@@ -14,7 +14,8 @@ This project is an Air Quality Classification Model built using Machine Learning
 
 # 📂 Project Structure
 
- Air Quality Classification Model/ \n
+ Air Quality Classification Model/ 
+ 
 │-- models/
 │   │-- svc_binary.pkl
 │   │-- svc_multi.pkl
@@ -95,3 +96,55 @@ numpy
  This project is licensed under the MIT License.
 
 # 💡 Developed by Shivani Virang 🚀
+# Air Quality Classification Model
+
+This project provides a Streamlit-based web application for predicting air quality using various machine learning models.
+
+## Folder Structure
+
+```plaintext
+Air Quality Classification Model/
+│-- models/
+│   │-- svc_binary.pkl
+│   │-- svc_multi.pkl
+│   │-- logistic_binary.pkl
+│   │-- logistic_ovr.pkl
+│   │-- logistic_multi.pkl
+│   │-- encoder.pkl
+│-- setup.py
+│-- app.py
+│-- requirements.txt
+│-- README.md
+```
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/air-quality-classification.git
+   cd air-quality-classification
+   ```
+2. Create a virtual environment and activate it:
+   ```bash
+   conda create --name air_quality_env python=3.10
+   conda activate air_quality_env
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Model Information
+- **Support Vector Classifier (SVC)**: Binary and multi-class models
+- **Logistic Regression**: Binary, OVR, and multinomial classification models
+- **Encoder**: Used for preprocessing categorical features
+
+## Contributing
+Feel free to fork this repository and submit pull requests with improvements.
+
+## License
+This project is licensed under the MIT License.
