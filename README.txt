@@ -1,10 +1,10 @@
-Air Quality Classification Model
+🌍 Air Quality Classification Model
 
-Overview
+📌 Overview
 
 This project is an Air Quality Classification Model built using Machine Learning. It provides a Streamlit-based UI where users can select an ML model and input data for air quality prediction. The app loads multiple trained models from .pkl files using joblib.
 
-Features
+✨ Features
 
 ✅ Multiple ML models available (SVC, Logistic Regression, etc.)
 ✅ User-friendly UI using Streamlit
@@ -12,7 +12,7 @@ Features
 ✅ Pre-trained models loaded via joblib
 ✅ Supports binary and multi-class classification
 
-Project Structure
+📂 Project Structure
 
 Air Quality Classification Model/
 │-- models/
@@ -27,7 +27,7 @@ Air Quality Classification Model/
 │-- requirements.txt
 │-- README.md
 
-Installation & Setup
+🚀 Installation & Setup
 
 1️⃣ Create a Virtual Environment
 
@@ -47,17 +47,14 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-Usage
+🔧 Usage
 
-Open the Streamlit UI in your browser.
+1️⃣ Open the Streamlit UI in your browser.
+2️⃣ Select an ML model from the dropdown.
+3️⃣ Enter data for air quality classification.
+4️⃣ Click "Predict" to get results.
 
-Select an ML model from the dropdown.
-
-Enter data for air quality classification.
-
-Click "Predict" to get results.
-
-Dependencies
+📦 Dependencies
 
 streamlit
 
@@ -69,7 +66,7 @@ joblib
 
 numpy
 
-Saving and Loading Models
+💾 Saving and Loading Models
 
 Saving models:
 
@@ -81,20 +78,22 @@ Loading models:
 model = joblib.load('model.pkl')
 prediction = model.predict(data)
 
-Troubleshooting
+❗ Troubleshooting
 
 🔹 Issue: NameError: name 'svc_binary' is not defined
+
 ✅ Fix: Ensure models are loaded using joblib.load('svc_binary.pkl') before calling them.
 
 🔹 Issue: FileNotFoundError: Model file not found
+
 ✅ Fix: Check if .pkl files exist in the models/ directory.
 
-Contributing
+🤝 Contributing
 
-Feel free to fork this repository and submit PRs with improvements! 🚀
+Feel free to fork this repository and submit pull requests (PRs) with improvements! 🚀
 
-License
+📜 License
 
 This project is licensed under the MIT License.
 
-🚀 Developed by Shivani Virang
+💡 Developed by Shivani Virang 🚀
