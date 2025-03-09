@@ -14,7 +14,7 @@ This project is an Air Quality Classification Model built using Machine Learning
 
 # 📂 Project Structure
 
-Air Quality Classification Model/
+** Air Quality Classification Model/
 │-- models/
 │   │-- svc_binary.pkl
 │   │-- svc_multi.pkl
@@ -25,7 +25,7 @@ Air Quality Classification Model/
 │   │-- setup.py
 │   │-- app.py
 │-- requirements.txt
-│-- README.md
+│-- README.md **
 
 # 🚀 Installation & Setup
 
@@ -37,63 +37,63 @@ Air Quality Classification Model/
 
 ## Windows: env\Scripts\activate
 
-Mac/Linux: source env/bin/activate
+## Mac/Linux: source env/bin/activate
 
-2️⃣ Install Dependencies
+# 2️⃣ Install Dependencies
 
-pip install -r requirements.txt
+### pip install -r requirements.txt
 
-3️⃣ Run the Streamlit App
+# 3️⃣ Run the Streamlit App
 
-streamlit run app.py
+# streamlit run app.py
 
-🔧 Usage
+## 🔧 Usage
 
-1️⃣ Open the Streamlit UI in your browser.
-2️⃣ Select an ML model from the dropdown.
-3️⃣ Enter data for air quality classification.
-4️⃣ Click "Predict" to get results.
+## 1️⃣ Open the Streamlit UI in your browser.
+## 2️⃣ Select an ML model from the dropdown.
+## 3️⃣ Enter data for air quality classification.
+## 4️⃣ Click "Predict" to get results.
 
-📦 Dependencies
+# 📦 Dependencies
 
-streamlit
+## streamlit
 
-pandas
+## pandas
 
-scikit-learn
+## scikit-learn
 
-joblib
+## joblib
 
-numpy
+## numpy
 
-💾 Saving and Loading Models
+# 💾 Saving and Loading Models
 
-Saving models:
+## Saving models:
 
-import joblib
-joblib.dump(model, 'model.pkl')
+### import joblib
+### joblib.dump(model, 'model.pkl')
 
-Loading models:
+## Loading models:
 
-model = joblib.load('model.pkl')
-prediction = model.predict(data)
+## model = joblib.load('model.pkl')
+## prediction = model.predict(data)
 
-❗ Troubleshooting
+# ❗ Troubleshooting
 
-🔹 Issue: NameError: name 'svc_binary' is not defined
+## 🔹 Issue: NameError: name 'svc_binary' is not defined
 
-✅ Fix: Ensure models are loaded using joblib.load('svc_binary.pkl') before calling them.
+## ✅ Fix: Ensure models are loaded using joblib.load('svc_binary.pkl') before calling them.
 
-🔹 Issue: FileNotFoundError: Model file not found
+## 🔹 Issue: FileNotFoundError: Model file not found
 
-✅ Fix: Check if .pkl files exist in the models/ directory.
+## ✅ Fix: Check if .pkl files exist in the models/ directory.
 
-🤝 Contributing
+## 🤝 Contributing
 
-Feel free to fork this repository and submit pull requests (PRs) with improvements! 🚀
+## Feel free to fork this repository and submit pull requests (PRs) with improvements! 🚀
 
-📜 License
+## 📜 License
 
-This project is licensed under the MIT License.
+## This project is licensed under the MIT License.
 
-💡 Developed by Shivani Virang 🚀
+# 💡 Developed by Shivani Virang 🚀
